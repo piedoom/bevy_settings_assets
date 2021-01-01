@@ -64,7 +64,7 @@ impl AssetLoader for SettingsLoader {
     }
 
     fn extensions(&self) -> &[&str] {
-        &["settings"]
+        &["settings", "ron"]
     }
 }
 
